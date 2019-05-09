@@ -16,6 +16,7 @@ const install = (Vue, globalOptions) => {
   Vue.component(quillEditor.name, quillEditor)
 }
 
+console.log("123456")
 const VueQuillEditor = { Quill, quillEditor, install }
 
 export default VueQuillEditor
